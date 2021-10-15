@@ -1,6 +1,6 @@
 const Discord = require("discord.js"); 
-const jano = new Discord.Client();
-const jano2 = new Discord.Client();
+const jano = new Discord.Client(647507927074340865);
+const jano2 = new Discord.Client(647507927074340865);
 const jano3 = new Discord.Client();
 const jano4 = new Discord.Client();
 const jano5 = new Discord.Client();
@@ -111,7 +111,7 @@ jano.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha **");
         })
         .catch(console.log);
     } else {
@@ -3636,7 +3636,7 @@ jano100.on("ready", () => {
 
 //////////////// tokn lera da bne 
 
-jano.login("");
+jano.login("ODk4MzMzNDQyNzk2ODE4NDQy.YWishQ.WKkYTeGNSpaSntFgAa4lrEHU2LE");
 jano2.login("");
 jano3.login("");
 jano4.login("");
